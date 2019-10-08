@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B3269A5234C2822005E6547 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3269A4234C2822005E6547 /* AppDelegate.m */; };
-		2B3269A8234C2822005E6547 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3269A7234C2822005E6547 /* SceneDelegate.m */; };
 		2B3269AB234C2822005E6547 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3269AA234C2822005E6547 /* ViewController.m */; };
-		2B3269AE234C2822005E6547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3269AC234C2822005E6547 /* Main.storyboard */; };
 		2B3269B0234C2824005E6547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3269AF234C2824005E6547 /* Assets.xcassets */; };
 		2B3269B3234C2824005E6547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3269B1234C2824005E6547 /* LaunchScreen.storyboard */; };
 		2B3269B6234C2824005E6547 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3269B5234C2824005E6547 /* main.m */; };
@@ -42,11 +40,8 @@
 		2B3269A0234C2822005E6547 /* MarqueeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarqueeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3269A3234C2822005E6547 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B3269A4234C2822005E6547 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B3269A6234C2822005E6547 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2B3269A7234C2822005E6547 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		2B3269A9234C2822005E6547 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2B3269AA234C2822005E6547 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2B3269AD234C2822005E6547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B3269AF234C2824005E6547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3269B2234C2824005E6547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B3269B4234C2824005E6547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,8 +110,6 @@
 			children = (
 				2B3269A3234C2822005E6547 /* AppDelegate.h */,
 				2B3269A4234C2822005E6547 /* AppDelegate.m */,
-				2B3269A6234C2822005E6547 /* SceneDelegate.h */,
-				2B3269A7234C2822005E6547 /* SceneDelegate.m */,
 				2B3269A9234C2822005E6547 /* ViewController.h */,
 				2B3269AA234C2822005E6547 /* ViewController.m */,
 				2B3269DE234C2851005E6547 /* RetAnimationDelegate.h */,
@@ -125,7 +118,6 @@
 				2B3269DA234C2844005E6547 /* RetMarqueeView.m */,
 				2B3269D8234C2844005E6547 /* RetRenewMarquee.h */,
 				2B3269D9234C2844005E6547 /* RetRenewMarquee.m */,
-				2B3269AC234C2822005E6547 /* Main.storyboard */,
 				2B3269AF234C2824005E6547 /* Assets.xcassets */,
 				2B3269B1234C2824005E6547 /* LaunchScreen.storyboard */,
 				2B3269B4234C2824005E6547 /* Info.plist */,
@@ -257,7 +249,6 @@
 			files = (
 				2B3269B3234C2824005E6547 /* LaunchScreen.storyboard in Resources */,
 				2B3269B0234C2824005E6547 /* Assets.xcassets in Resources */,
-				2B3269AE234C2822005E6547 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +279,6 @@
 				2B3269A5234C2822005E6547 /* AppDelegate.m in Sources */,
 				2B3269B6234C2824005E6547 /* main.m in Sources */,
 				2B3269E0234C2851005E6547 /* RetAnimationDelegate.m in Sources */,
-				2B3269A8234C2822005E6547 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,14 +314,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2B3269AC234C2822005E6547 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B3269AD234C2822005E6547 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B3269B1234C2824005E6547 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
